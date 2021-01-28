@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0
+}
+/* 头部 */
+#head{
+    width: 100%;
+    height: 110px;
+    float: left;
+}
+/* 头部版心 */
+.head-con{
+    width: 990px;
+    height: 110px;
+    margin: 0 auto;
+    /* background: skyblue */
+}
+.head-con img{
+    float: left;
+    margin: 42px 0 0 16px
+}
+/* 右边盒子 */
+.head-box{
+    width: 514px;
+    height: 110px;
+    float: right;
+    /* background: pink */
+}
+.head-box ul li{
+    list-style: none;
+    font-size: 12px;
+    width: 72px;
+    height: 110px;
+    line-height: 110px;
+    float: left;
+    text-align: center
+}
+.head-box li:hover{
+    color: #858585;
+    border-top: 2px solid #858585
+}
+/* ￥￥￥￥￥￥￥头部结束 */
+/* 轮播图 */
+#banner{
+    width: 100%;
+    height: 461px;
+    float: left;
+    overflow: hidden
+}
+#banner img{
+    float: left;
+    width: 100%;
+    height: 100%;
+    }
+/* 轮播图版心
+.banner-con{
+    width: 1401px;
+    height: 460px;
+    margin: 0 auto;
+    background: brown;
+    position: relative;
+} */
+/* 左侧盒子
+.banner-left{
+    width: 228px;
+    height: 462px;
+    float: left;
+    background: #e6e6e6;
+    position: absolute;   
+}
+右侧盒子
+.banner-right{
+    width: 228px;
+    height: 462px;
+    float: right;
+    background: #e6e6e6
+} */
+/* 新闻部分 */
+#news{
+    width: 100%;
+    height: 385px;
+    float: left;
+}
+/* 新闻部分版心 */
+.news-con{
+    width: 990px;
+    height: 385px;
+    /* background: skyblue; */
+    margin: 0 auto
+}
+/* 第一个盒子 */
+.news-box1{
+    float: left;
+    margin: 48px 0 0 26px;
+    position: relative;
+}
+.news-box1 img{
+position: absolute;
+margin: 26px 0 0 100px
+}
+.news-box1 p{
+    font-size: 20px;
+    position: absolute;
+    margin: 138px 0 0 72px;
+    color: #777777
+}
+.news-box1 ul{
+    margin: 180px 0 0 18px
+}
+.news-box1 ul li{
+    list-style: none;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    color: #8d8d8d;
+    float: left;
+}
+.news-box1 i{
+    font-style: normal;
+    font-size: 12px;
+    margin-left:103px
+}
+.news-box1:hover{
+    width: 290px;
+    height: 300px;
+    border: 1px solid #e5e5e5;
+    background: #f7f7f7
+}
+.news-up:hover{
+    width: 290px;
+    height: 300px;
+    margin-left: 26px;
+    float: left;
+    border-top: 3px solid #d0000e
+}
+/* 第二个盒子 */
+.news-box2{
+    float: left;
+    margin: 48px 0 0 26px;
+    position: relative;
+}
+.news-box2 img{
+position: absolute;
+margin: 26px 0 0 100px
+}
+.news-box2 p{
+    font-size: 20px;
+    position: absolute;
+    margin: 138px 0 0 72px;
+    color: #777777
+}
+.news-box2 ul{
+    margin: 180px 0 0 18px
+}
+.news-box2 ul li{
+    list-style: none;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    color: #8d8d8d;
+    float: left;
+
+}
+.news-box2 i{
+    font-style: normal;
+    font-size: 12px;
+    margin-left:103px
+}
+.news-box2:hover{
+    width: 290px;
+    height: 300px;
+    border: 1px solid #e5e5e5;
+    background: #f7f7f7
+}
+.news-up:hover{
+    width: 290px;
+    height: 300px;
+    margin-left: 26px;
+    float: left;
+    border-top: 3px solid #d0000e
+}
+/* 第三个盒子 */
+.news-box3{
+    float: left;
+    margin: 48px 0 0 26px;
+    position: relative;
+}
+.news-box3 img{
+position: absolute;
+margin: 26px 0 0 100px
+}
+.news-box3 p{
+    font-size: 20px;
+    position: absolute;
+    margin: 138px 0 0 72px;
+    color: #777777
+}
+.news-box3 ul{
+    margin: 180px 0 0 18px
+}
+.news-box3 ul li{
+    list-style: none;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    color: #8d8d8d;
+    float: left;
+
+}
+.news-box3 i{
+    font-style: normal;
+    font-size: 12px;
+    margin-left:103px
+}
+.news-box3:hover{
+    width: 290px;
+    height: 300px;
+    border: 1px solid #e5e5e5;
+    background: #f7f7f7
+}
+.news-up:hover{
+    width: 290px;
+    height: 300px;
+    margin-left: 26px;
+    float: left;
+    border-top: 3px solid #d0000e
+}
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$新闻部分结束 */
+/* 产品案例 */
+#case{
+    width: 100%;
+    height: 712px;
+    float: left;
+    background-color: #525355
+}
+.case-line img{
+    width:100% ;
+    height: 2px;
+    float: left;
+    margin-top: 354px
+}
+/* 产品案例版心 */
+.case-con{
+    width: 990px;
+    height: 712px;
+    /* background: #e5e5e5; */
+    margin: 0 auto;
+    position: relative;
+}
+
+.case-con p{
+    font-size: 16px;
+    color: #ffffff;
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 455px
+}
+/* 上半部分整体盒子 */
+.case-up{
+    width: 990px;
+    height: 356px;
+    /* background: #858585; */
+    float: left;
+}
+/* 第一个盒子 */
+.case-box1{
+    width: 226px;
+    height: 285px;
+    margin-top: -287px;
+    /* background-color: darkkhaki; */
+    float: left;
+}
+.case-box1 i{
+    font-style: normal;
+    width: 226px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #525355;
+    text-align: center;
+    background: #cbcccc;
+    float: left;
+    margin-top: -5px
+}
+/* 第二个盒子 */
+.case-box2{
+    width: 226px;
+    height: 285px;
+    margin: -287px 0 0 248px;
+    /* background-color: darkkhaki; */
+    float: left;
+}
+.case-box2 i{
+    font-style: normal;
+    width: 226px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #525355;
+    text-align: center;
+    background: #cbcccc;
+    float: left;
+    margin-top: -5px
+}
+/* 第三个盒子 */
+.case-box3{
+    width: 226px;
+    height: 285px;
+    margin: -287px 0 0 496px;
+    /* background-color: darkkhaki; */
+    float: left;
+}
+.case-box3 i{
+    font-style: normal;
+    width: 226px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #525355;
+    text-align: center;
+    background: #cbcccc;
+    float: left;
+    margin-top: -5px
+}
+/* 第四个盒子 */
+.case-box4{
+    width: 226px;
+    height: 285px;
+    margin: -287px 0 0 745px;
+    /* background-color: darkkhaki; */
+    float: left;
+}
+.case-box4 i{
+    font-style: normal;
+    width: 226px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #525355;
+    text-align: center;
+    background: #cbcccc;
+    float: left;
+    margin-top: -5px
+}
+/* 下半部分 */
+/* 第一个盒子 */
+.case-box5{
+    width: 226px;
+    height: 285px;
+    margin-top: -293px;
+    /* background-color: darkkhaki; */
+    float: left;
+}
+.case-box5 i{
+    font-style: normal;
+    width: 226px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #525355;
+    text-align: center;
+    background: #cbcccc;
+    float: left;
+    margin-top: -5px
+}
+/* 第二个盒子 */
+.case-box6{
+    width: 226px;
+    height: 285px;
+    margin: -293px 0 0 248px;
+    /* background-color: darkkhaki; */
+    float: left;
+}
+.case-box6 i{
+    font-style: normal;
+    width: 226px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #525355;
+    text-align: center;
+    background: #cbcccc;
+    float: left;
+    margin-top: -5px
+}
+/* 第三个盒子 */
+.case-box7{
+    width: 226px;
+    height: 285px;
+    margin: -293px 0 0 496px;
+    /* background-color: darkkhaki; */
+    float: left;
+}
+.case-box7 i{
+    font-style: normal;
+    width: 226px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #525355;
+    text-align: center;
+    background: #cbcccc;
+    float: left;
+    margin-top: -5px
+}
+/* 第四个盒子 */
+.case-box8{
+    width: 226px;
+    height: 285px;
+    margin: -293px 0 0 745px;
+    /* background-color: darkkhaki; */
+    float: left;
+}
+.case-box8 i{
+    font-style: normal;
+    width: 226px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #525355;
+    text-align: center;
+    background: #cbcccc;
+    float: left;
+    margin-top: -5px
+}
+/* ￥￥￥￥￥￥￥￥￥￥￥￥￥产品案例结束 */
+/* 底部 */
+#fotter{
+    width: 100%;
+    height: 230px;
+    float: left;
+    background: #ecedef;
+    margin-top: 26px;
+    border-top:1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1
+}
+/* 底部版心 */
+.fotter-con{
+    width: 990px;
+    height: 230px;
+    /* background: aquamarine; */
+    margin: 0 auto
+}
+/* 第一个盒子 */
+.fotter-box1{
+    width: 380px;
+    height: 180px;
+    float: left;
+    margin-top: 30px;
+    /* background: antiquewhite; */
+    border-right: 1px solid #d1d1d1
+}
+.fotter-boxa{
+    width: 127px;
+    height: 180px;
+    float: left;
+    /* background: brown */
+}
+.fotter-boxa p{
+    font-size: 16px;
+    text-align: center;
+}
+.fotter-boxa ul li {
+    list-style: none;
+    font-size: 12px;
+    width: 127px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #949393;
+    background: url(../images/sjx_03.gif) no-repeat center left
+}
+.fotter-boxb{
+    width: 127px;
+    height: 180px;
+    float: left;
+    /* background: blue */
+}
+.fotter-boxb p{
+    font-size: 16px;
+    text-align: center;
+}
+.fotter-boxb ul li {
+    list-style: none;
+    font-size: 12px;
+    width: 127px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #949393;
+    background: url(../images/sjx_03.gif) no-repeat center left
+}
+.fotter-boxc{
+    width: 126px;
+    height: 180px;
+    float: left;
+    /* background: blue */
+}
+.fotter-boxc p{
+    font-size: 16px;
+    text-align: center;
+}
+.fotter-boxc ul li {
+    list-style: none;
+    font-size: 12px;
+    width: 127px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #949393;
+    background: url(../images/sjx_03.gif) no-repeat center left
+}
+/* 第二个盒子 */
+.fotter-box2{
+    width: 355px;
+    height: 180px;
+    float: left;
+    /* background-color: darksalmon; */
+    margin-top: 30px;
+    border-right: 1px solid #d1d1d1
+}
+.fotter-box2 em{
+    font-style: normal;
+    font-size: 16px;
+    color:#6d6d6d;
+   margin-left: 155px
+}
+.fotter-box2 ul li{
+    list-style: none;
+    width: 377px;
+    height: 20px;
+    line-height: 20px;
+    color: #ecedef;
+    font-size: 12px;
+    text-align: center
+}
+.fotter-box2 img{
+    float: left;
+    margin: 40px 0 0 87px
+}
+/* 第三个盒子 */
+.fotter-box3{
+    width: 246px;
+    height: 141px;
+    /* background: skyblue; */
+    float: left;
+    margin-top: 30px
+}
+.fotter-box3 ul li{
+    list-style: none;
+    font-size: 12px;
+    color:#707070;
+    height: 30px;
+    line-height: 30px;
+    background: url(../images/eamil_03.gif)no-repeat center left
+}
+/* ######底部结束######## */
+#bq{
+    width: 100%;
+    height: 40px;
+    float: left;
+    background: #505153
+}
+.bq-con{
+    width: 990px;
+    height: 40px;
+    margin: 0 auto
+}
+.bq-con p{
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    color: #ffffff;
+    width: 990px;
+    text-align: center
+}

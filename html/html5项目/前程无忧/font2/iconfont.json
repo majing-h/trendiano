@@ -1,0 +1,37 @@
+{
+  "id": "2244207",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "654295",
+      "name": "笑脸",
+      "font_class": "xiaolian",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "853083",
+      "name": "房子",
+      "font_class": "fangzi",
+      "unicode": "e6d3",
+      "unicode_decimal": 59091
+    },
+    {
+      "icon_id": "2078817",
+      "name": "dkw_消息 ",
+      "font_class": "dkw_xiaoxi",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "18165455",
+      "name": "报纸,新闻,头条",
+      "font_class": "newspaper",
+      "unicode": "e891",
+      "unicode_decimal": 59537
+    }
+  ]
+}

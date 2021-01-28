@@ -1,0 +1,991 @@
+/* 顶部背景 */
+#top{
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff
+}
+/* 顶部版心 */
+#top .top-con{
+    width: 1195px;
+    height: 80px;
+    margin: 0 auto;
+    /* background-color: skyblue */
+}
+#top .top-con span{
+    float: left;
+    margin: 16px 0 16px 0;
+    width: 168px;
+    height: 48px;
+    /* background-color: aquamarine; */
+    background: url(../images/shuxian_03.gif) no-repeat right
+}
+#top .top-con p{
+    float: left;
+    margin: 20px 0 16px 10px
+}
+.box2{
+    width: 465px;
+    height: 80px;
+    /* background-color: bisque; */
+    float: left;
+    margin-left:73px
+}
+.box3{
+    width: 143px;
+    height: 78px;
+    float: left;
+    /* background-color: antiquewhite; */
+    margin-left: 80px
+}
+.box3-con{
+    width: 142px;
+    height: 37px;
+    /* background-color: red; */
+    float: left;
+}
+.box3-con ul li{
+    font-size: 12px;
+    color: #a1968c;
+    list-style: none;
+    font-style: normal;
+    float: right;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 3px
+}
+.box3 input{
+    width: 142px;
+    height: 24px;
+    border-color: #cdb6a1;
+    float: left;
+    margin-bottom: 16px;
+    float: left;
+    background: url(../images/fdj_08.gif) no-repeat right center;
+    outline: none   
+}
+/* 轮播图 */
+#banner{
+    width: 100%;
+    height: 358px;
+    /* background-color: brown; */
+    float: left;
+    overflow: hidden;
+}
+/* 轮播图版心 */
+.banner-con{
+    width: 1195px;
+    height: 358px;
+    /* background-color: black; */
+    margin: 0 auto;
+    position: relative;/* 相对定位 */
+}
+.banner-con img{
+    position: absolute;
+    left: 50%;
+    margin-left: -720px;
+}
+/* 通知 */
+#item{
+    width: 100%;
+    height: 40px;
+    /* background-color: aqua; */
+    float: left;
+    border-bottom:1px solid #f2f1ef
+}
+/* 通知版心 */
+.item-con{
+    width: 1195px;
+    height: 40px;
+    /* background-color: burlywood; */
+    margin:0 auto;
+    background: url(../images/jt_03.gif) no-repeat bottom 
+}
+.item-con img{
+    margin: 9px 0 9px 20px;
+    float:left
+}
+.item-con marquee{
+    font-size: 12px;
+    color: #000000;
+    margin: -32px 0 10px 10px;
+    line-height: 40px;
+    width: 1195px;
+    /* height: 40px; */
+    /* float: left; */
+}
+   /*中间部分  */
+#middle{
+    width: 100%;
+    height: 1609px;
+    background-color:#d6dae2;
+    float: left
+}   
+/* 中间部分版心 */
+#middle .middle-con{
+    width: 1195px;
+    height: 1609px;
+    /* background: pink; */
+    margin: 0 auto;
+    position: relative;
+}
+/* 热门课程 */
+#hot{
+    width: 780px;
+    height: 350px;
+    background-color:#f2f1ef;
+    float: left;
+    margin-top: 20px
+}
+/* 热门课程版心 */
+#hot .hot-con{
+    width: 741px;
+    height: 350px;
+    /* background-color: greenyellow; */
+    margin: 0 auto
+}
+/* 上半部分 */
+#hot .hot-up{
+    width: 741px;
+    height: 60px;
+    /* background-color: cadetblue */
+}
+#hot .hot-up img{
+    margin: 20px 0 20px 0;
+    float: left;
+}
+#hot .hot-up span{
+    font-size: 20px;
+    margin: 16px 0 20px 20px;
+    float: left
+}
+#hot .hot-up p{
+    font-size: 12px;
+    float: right;
+    margin: -36px 20px 20px 600px
+}
+/* 马化腾 */
+#hot .hot-under-1{
+    width: 228px;
+    height: 274px;
+    /* background-color: blueviolet; */
+    float: left;
+    margin: 13px 0 20px 20px
+}
+.hot-under-1 .hot-text1{
+    width: 228px;
+    height: 111px;
+    /* background-color: aqua; */
+    float: left;
+    border-top: 3px solid #1fc0ef;
+    margin-top: -4px
+}
+.hot-text1 ul li{
+    list-style: none;
+    font-size: 12px;
+    float: left;
+    width: 228px;
+    height: 24px;
+    line-height: 24px;
+    margin-left: 10px;
+    color: #888888
+}
+.hot-text1 ul {
+    margin-top: 6px
+}
+/* 腾讯cxo */
+#hot .hot-under-2{
+    width: 228px;
+    height: 274px;
+    /* background-color: burlywood; */
+    float: left;
+    margin: 13px 0px 20px 17px
+}
+.hot-under-2 .hot-text2{
+    width: 228px;
+    height: 111px;
+    /* background-color: aqua; */
+    float: left;
+    border-top: 3px solid #f6a544;
+    margin-top: -4px
+}
+.hot-text2 ul li{
+    list-style: none;
+    font-size: 12px;
+    float: left;
+    width: 228px;
+    height: 24px;
+    line-height: 24px;
+    margin-left: 10px;
+    color: #888888
+}
+.hot-text2 ul {
+    margin-top: 6px
+}
+/* 飞利浦 */
+#hot .hot-under-3{
+    width: 228px;
+    height: 274px;
+    /* background-color: darkolivegreen; */
+    float: left;
+    margin: 13px 0 20px 20px
+}
+.hot-under-3 .hot-text3{
+    width: 228px;
+    height: 111px;
+    /* background-color: aqua; */
+    float: left;
+    border-top: 3px solid #8cbe00;
+    margin-top: -4px
+}
+.hot-text3 ul li{
+    list-style: none;
+    font-size: 12px;
+    float: left;
+    width: 228px;
+    height: 24px;
+    line-height: 24px;
+    margin-left: 10px;
+    color: #888888
+}
+.hot-text3 ul {
+    margin-top: 6px
+}
+/* *************干货分享开始****************** */
+#share{
+    width: 780px;
+    height: 498px;
+    background: #f2f1ef;
+    float: left;
+    margin-top: 20px
+    }
+    /* 干货分享版心 */
+    #share .share-con{
+        width: 741px;
+        height: 498px;
+        margin: 0 auto;
+        /* background-color: cornsilk; */
+    }
+    /* 上半部分 */
+    .share-con .share-up{
+width: 741px;
+height: 60px;
+float: left;
+/* background-color: #8cbe00 */
+    }
+    .share-up img{
+        margin: 20px 0 20px 0;
+        float: left;
+    }
+    .share-up p{
+        font-size: 20px;
+        margin: 16px 0 20px 20px;
+        float: left
+    }
+    .share-up i{
+        font-style: normal;
+        font-size: 12px;
+        float: right;
+        margin: 32px 0 20px 0
+    }
+    /* 下半部分 */
+    .share-down{
+        width: 741px;
+        height: 418px;
+        /* background-color: brown; */
+        float: left;
+    }
+     /* 第一个盒子 */
+.share-box1{
+    width: 741px;
+    height: 126px;
+    float: left;
+    background: url(../images/@a_03.gif) no-repeat right top;
+    background-color: #ffffff;
+}
+.share-box1 img{
+    margin: 20px 0 20px 20px;
+    float: left;
+}
+.share-text1 ul li{
+    list-style: none;
+    float: left;
+}
+.share-text1 .s{
+    font-size: 15px;
+    margin: 20px 0 12px 20px
+}
+.share-text1 .z-1{
+    font-size: 12px;
+    margin: 26px 0 12px -174px;
+    color: #888888
+}
+.share-text1 .z-1 span{
+    float: left;
+    margin: -19px 0 12px -32px;
+
+}
+.share-text1 .x-1{
+    font-size: 12px;
+    margin: 26px 0 44px -186px
+}
+/* 第二个盒子 */
+.share-box2{
+    width: 741px;
+    height: 126px;
+    float: left;
+    background: url(../images/sp_03.gif) no-repeat right top;
+    background-color: #ffffff;
+    margin-top: 20px
+    }
+.share-box2 img{
+margin: 20px 0 20px 20px;
+float: left;
+}
+
+.share-text1 ul li{
+list-style: none;
+float: left;
+}
+.share-text1 .s{
+font-size: 15px;
+margin: 20px 0 12px 20px
+}
+.share-text1 .z-1{
+font-size: 12px;
+margin: 26px 0 12px -174px;
+color: #888888
+}
+.share-text1 .z-1 span{
+float: left;
+margin: -19px 0 12px -32px;
+
+}
+.share-text1 .x-1{
+font-size: 12px;
+margin: 26px 0 44px -186px
+}
+/* 第三个盒子 */
+.share-box3{
+    width: 741px;
+    height: 106px;
+    float: left;
+    background: url(../images/dn_03.gif) no-repeat right top;
+    background-color: #ffffff;
+    margin-top: 20px
+    }
+    .share-box3 img{
+    margin: 20px 0 20px 20px;
+    float: left;
+    }
+    .share-text1 ul li{
+    list-style: none;
+    float: left;
+    }
+    .share-text1 .s{
+    font-size: 15px;
+    margin: 20px 0 12px 20px
+    }
+    .share-text1 .z{
+    font-size: 12px;
+    margin: 26px 0 12px -240px;
+    color: #888888
+    }
+    .share-text1 .z span{
+    float: left;
+    margin: -19px 0 12px -32px;
+    }
+    .share-text1 .x{
+    font-size: 12px;
+    margin: 26px 0 44px -253px
+    }
+/* *******************干货分享结束****************** */
+/* 精品活动 */
+#act{
+    width: 780px;
+    height: 700px;
+    background-color: #f2f1ef;
+    float: left;
+    margin-top:20px
+}
+/* 精品活动版心 */
+#act .act-con{
+    width:741px;
+    height: 700px;
+    /* background-color: #8cbe00; */
+    margin: 0 auto
+}
+/* 上半部分 */
+#act .act-up{
+    width: 741px;
+    height: 40px;
+    /* background: #a1968c; */
+    float: left
+}
+.act-up img{
+margin-top: 20px;
+float: left;
+}
+.act-up p{
+    font-size: 20px;
+    margin: 18px 0 0 20px;
+    float: left;
+}
+.act-up i{
+    font-style: normal;
+    font-size: 12px;
+    float: right;
+    margin-top: 26px
+}
+/* 下半部分整体 */
+#act .act-down{
+    width: 741px;
+    height: 642px;
+    /* background-color: burlywood; */
+    float: left
+}
+/* 第一个盒子 */
+.act-box1{
+    width: 741px;
+    height: 200px;
+    border-bottom: 1px solid #e4e3e2;
+    /* background-color: darkgreen; */
+}
+.act-box1 img{
+    margin: 20px 0 20px 0;
+    float: left;
+}
+/* 右边 */
+.box1-right{
+    width: 514px;
+    height: 200px;
+    /* background-color: #8cbe00; */
+    float: left
+}
+ .act-box1 .first{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.act-box1 .second{
+    margin-left: 20px;
+    color: #888888;
+    float: left;
+    margin-top: 12px
+}
+.box1-right span{
+    margin-left: 20px;
+    float: left;
+    margin: -15px 7px 0 3px
+}
+.box1-right ul li{
+    list-style: none;
+    font-size: 12px
+}
+.act-box1 .third{
+    margin-left: 20px;
+    width: 741px;
+    height: 24px;
+    line-height: 24px;
+    float: left
+}
+/* 第二个盒子 */
+.act-box2{
+    width: 741px;
+    height: 200px;
+    border-bottom: 1px solid #e4e3e2;
+    /* background-color:plum; */
+}
+.act-box2 img{
+    margin: 20px 0 20px 0;
+    float: left;
+}
+/* 右边 */
+.box2-right{
+    width: 514px;
+    height: 200px;
+    /* background-color: #8cbe00; */
+    float: left
+}
+ .act-box2 .first{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.act-box2 .second{
+    margin-left: 20px;
+    color: #888888;
+    float: left;
+    margin-top: 12px
+}
+.box2-right span{
+    margin-left: 20px;
+    float: left;
+    margin: -15px 7px 0 3px
+}
+.box2-right ul li{
+    list-style: none;
+    font-size: 12px
+}
+.act-box2 .third{
+    margin-left: 20px;
+    width: 741px;
+    height: 24px;
+    line-height: 24px;
+    float: left
+}
+/* 第三个盒子 */
+.act-box3{
+    width: 741px;
+    height: 200px;
+    /* background-color: powderblue; */
+    float: left;
+    border-bottom: 1px solid #e4e3e2
+}
+.act-box3 img{
+    float: left
+}
+/* 右边 */
+.box3-right{
+    width: 514px;
+    height: 200px;
+    /* background-color: #cdb6a1; */
+    float: left;
+}
+.box3-right ul li{
+    list-style: none
+}
+.box3-right .first{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.second span{
+    margin-left: 20px;
+    float: left;
+    margin: -15px 7px 0 3px
+}
+.box3-right .second{
+    margin-left: 20px;
+    color: #888888;
+    float: left;
+    margin-top: 12px;
+    font-size: 12px
+}
+.box3-right .third{
+    margin-left: 20px;
+    width: 741px;
+    height: 24px;
+    line-height: 24px;
+    float: left;
+    font-size: 12px
+}
+ /* *****************精品活动结束*****、*******************  */
+/* 排行榜 */
+#rank{
+    width: 267px;
+    height: 1590px;
+    background: #fcfafb;
+    position: absolute;
+    margin-top: 20px;
+    right: 128px
+}
+#rank .rank-con{
+     width:  228px;
+     height: 1590px;
+     /* background-color: cornflowerblue; */
+     margin: 0 auto
+}
+/* bd榜单 */
+#rank .rank-con .bd{
+    width: 228px;
+    height: 110px;
+    /* background-color: aquamarine; */
+    float: left;
+}
+.rank-con .bd img{
+    margin-top: 20px;
+    float: left;
+}
+.bd span{
+    font-size: 20px;
+    margin: 16px  0 0 10px;
+    float: left;
+}
+/* 最热排行 */
+#rank .new{
+    width: 228px;
+    height: 36px;
+    /* background-color: bisque; */
+    float: left;
+    margin-top:20px;
+    
+}
+#rank .new ul li{
+    font-size: 12px;
+    list-style: none;
+    width: 112px;
+    height: 34px;
+    float: left;
+    border: 1px solid #cccccc;
+    text-align: center;
+    line-height: 34px
+}
+#rank .new .li1{
+    color:#919191;
+    border-top: 0  
+}
+/* 微信支付 */
+/* 第一个盒子 */
+.pay-box1{
+    width: 228px;
+    height: 181px;
+    /* background-color: #8cbe00; */
+    float: left;
+}
+.pay-box1 img{
+    position: relative;
+}
+/* 文字 */
+.pay-box1-text{
+    width: 228px;
+    height: 26px;
+    background-color: rgba(00, 00, 00, 0.5);
+    float: left;
+    position: absolute;
+    top: 218px;
+    color: #ffffff
+}
+.pay-box1-text .span{
+    font-size: 12px;
+    width: 20px;
+    height: 26px;
+    background-color: red;
+    color: #ffffff;
+    text-align: center;
+    line-height: 26px;
+    float: left
+}
+.pay-box1-text .span1{
+    font-size: 12px;
+    color: #ffffff;
+    width: 208px;
+    height: 26px;
+    line-height: 26px;
+    text-indent: 10px
+}
+/* 第二个盒子 */
+.pay-box2{
+     width: 228px;
+     height: 181px;
+     /* background-color: #f6a544; */
+     float: left
+}
+.pay-box2 img{
+    position: relative;
+}
+.pay-box2-text{
+    width: 228px;
+    height: 26px;
+    /* background-color: #cdb6a1; */
+    position: absolute;
+    top: 399px
+}
+.pay-box2-text .span2{
+    width: 20px;
+    height: 26px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 26px;
+    background-color: #ec5a2e;
+    float: left;
+    color: #ffffff
+}
+.pay-box2-text .span3{
+    width: 208px;
+    height: 26px;
+    font-size: 12px;
+    line-height: 26px;
+    background-color: rgba(00,00,00, 0.5);
+    text-indent: 10px;
+    float: left;
+    color: #ffffff
+}
+/* 第三个盒子 */
+.pay-box3{
+    width: 228px;
+    height: 175px;
+    /* background-color: skyblue; */
+    float: left;
+    position: relative;
+}
+.pay-box3-text {
+    width: 228px;
+    height: 26px;
+    /* background-color: #8cbe00; */
+    position: absolute;
+    top: 108px
+}
+.pay-box3-text .span4{
+    font-size: 12px;
+    width: 20px;
+    height: 26px;
+    background-color: #f6a544;
+    line-height: 26px;
+    text-align: center;
+    float: left;
+    color: #ffffff
+}
+.pay-box3-text .span5{
+    width: 208px;
+    height: 26px;
+    font-size: 12px;
+    background-color: rgba(00, 00,00, 0.5);
+    line-height: 26px;
+    text-indent: 10px;
+    float: left;
+    color: #ffffff
+}
+/* 第四个盒子 */
+.pay-box4{
+    width: 228px;
+    height: 237px;
+    /* background-color: aquamarine; */
+    float: left
+}
+.pay-box4 ul li{
+    list-style: none;
+    font-size: 12px; 
+    width: 228px;
+    height: 30px;
+    line-height: 30px
+}
+.pay-box4 .span {
+    margin-bottom: 10px;
+    /* display: block */
+}
+.pay-box4 .p{
+    text-indent: 30px;
+    width: 228px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -43px
+}
+/* *******微信支付结束********** */
+/* 腾讯大学logo部分 */
+#university{
+width: 228px;
+height: 400px;
+/* background-color: darkgreen; */
+float: left;
+border-top: 1px solid #e4e3e2;
+border-bottom: 1px solid #e4e3e2
+}
+/* 上部分*/
+.university-up{
+width: 228px;
+height: 161px;
+background-color: #ffffff;
+float: left;
+margin-top:45px
+}
+.university-up img{
+    margin: -8px 0 0 104px
+}
+.university-up .span-un{
+    margin: 47px 0 0 -83px
+}
+/* 下半部分 */
+.university-down{
+    width: 228px;
+    height: 194px;
+    /* background-color: #f6a544; */
+    float: left;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 1px
+}
+.university-down i{
+    font-size: 20px;
+    font-style: normal;
+}
+/* 联系我们 */
+.phone img{
+margin-top: 14px;
+/* display: block; */
+}
+.phone p{
+    font-size: 20px;
+    margin: -27px 0 0 36px;
+}
+.phone i,em{
+font-size: 14px;
+font-style: normal;
+/* margin-top: 24px */
+}
+.phone .span-l{
+    margin-top: 24px;
+    float: left
+}
+/* 二维码 */
+#code{
+    width: 120px;
+    height: 164px;
+    background-color: #fefefe;
+    float: right;
+    margin-top: -867px
+}
+/* 版心 */
+.code-con{
+    width: 112px;
+    height: 148px;
+    margin: 0 auto;
+    /* background-color: #ffffff; */
+    margin-top: 10px
+}
+.code-con img{
+margin: 20px 4px 20px 4px
+}
+.code-con p{
+    font-size: 14px;
+    margin-top: -152px
+}
+.code-con i{
+    font-size: 14px;
+    font-style: normal;
+    line-height: 245px
+}
+/* **********中间部分结束**************** */
+/* 底部 */
+#fotter{
+   width: 100%;
+   height: 314px; 
+   background-color:#f6f6f6;
+   float: left; 
+}
+.fotter-one{
+    width: 25%;
+    height: 3px;
+    background-color: #1fc0ef;
+    float: left
+}
+.fotter-two{
+    width: 25%;
+    height: 3px;
+    background-color:#f6a544;
+    float: left
+}
+.fotter-three{
+    width: 25%;
+    height: 3px;
+    background-color: #8cbe00;
+    float: left
+}
+.fotter-four{
+    width: 25%;
+    height: 3px;
+    background-color:#ff6c00;
+    float: left
+}
+/* 版心 */
+.fotter-con{
+    width: 1195px;
+    height: 314px;
+    /* background-color: #919191; */
+    margin: 0 auto;
+    position: relative;
+}
+.open{
+    width: 782px;
+    height:161px;
+    /* background-color: #1fc0ef; */
+    padding-top: 23px
+}
+/* 开放平台上半部分 */
+.open-up{
+    width: 782px;
+    height: 90px;
+    /* background-color: #cdb6a1; */
+    float: left;
+    margin-top: -19px
+}
+.open p{
+    font-size: 12px;
+    margin-left:20px;
+    margin-top: 20px;
+    /* float: left */
+}
+.open li{
+    list-style: none;
+    float:left;
+    /* width: 55px; */
+    margin: 16px 55px 0px -4px
+}
+/* 控制平台下半部分 */
+.span-kbq {
+    width: 782px;
+    height: 99px;
+    /* background-color: palevioletred; */
+    float: left
+}
+.span-kbq ul li{
+list-style: none;
+float: left;
+}
+/* 合作伙伴 */
+#partner{
+    width: 782px;
+    height: 121px;
+    /* background-color: #f6a544; */
+    float: left
+}
+#partner p{
+font-size: 12px;
+margin-left: 20px
+}
+#partner ul li{
+list-style: none;
+font-size: 12px;
+margin: 14px 5px 12px 35px;
+float: left
+}
+/* 收听微博 */
+.webo{
+    width:268px;
+    height: 314px;
+    /* background-color: blueviolet; */
+    position: absolute;
+    right: 127px;
+    margin-top: -184px
+}
+.webo ul li{
+    width: 268px;
+    height: 17px;
+font-size:12px;
+margin: 20px 0 22px 18px;
+list-style: none
+}
+/* 底部结束*************** */
+/* 结尾 */
+#over{
+    width: 100%;
+    height: 103px;
+    background-color: #bababa;
+    float: left
+}
+/* 版心 */
+.over-con{
+    width: 1195px;
+    height: 102px;
+    margin: 0 auto;
+    /* background-color: aqua */
+}
+.over-con p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 102px
+}
+.over-con h5{
+    margin-top: -37px;
+    text-align: center
+}

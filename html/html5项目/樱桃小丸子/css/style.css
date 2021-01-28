@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column
+}
+/* 头部 */
+header{
+    width: 100%;
+    height: 3.67rem;
+    background: #0dc441;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+header p{
+    height: 2.08rem;
+    width:5.08rem ;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2.08rem
+}
+header p:nth-child(1){
+    border-radius: 0.92rem 0 0 0.92rem;
+    background: #64d985;
+    color: #fff
+}
+header p:nth-child(2){
+    border-radius: 0 0.92rem 0.92rem 0;
+    background: #3dd067;
+    color: #a3e9b7
+}
+/* 导航 */
+nav{
+    width: 100%;
+    height: 2.92rem;
+    /* background: skyblue; */
+    display: flex;
+    justify-content: space-between
+}
+nav span{
+    width: 8.33rem;
+    height: 2.92rem;
+    border-bottom: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    font-size: 1.08rem;
+    text-align: center;
+    line-height: 2.92rem;
+    color: #666666
+}
+nav span:hover,nav span:focus{
+    border-bottom: 0.21rem solid #0dc441;
+    color:#0dc441
+}
+/* 主体 */
+main{
+    width: 100%;
+    flex: 1;
+    /* background: olive; */
+    overflow: auto
+}
+article img{
+    width:100%;
+    display: block; 
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+figure{
+    width: 49%;
+    height:15.54rem;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    margin-top: 0.42rem
+}
+figcaption{
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    font-size: 1rem;
+    height: 2.08rem;
+    line-height: 2.08rem;
+    text-indent: 0.83rem;
+    box-sizing: border-box
+}
+/* 底部 */
+footer{
+    width: 100%;
+    height: 3.67rem;
+    /* background: pink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+footer div{
+    width: 20%;
+    height: 2.71rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column
+}
+span{
+    font-size: 1rem;
+    color: #d2d2d2;
+    font-style: normal
+}
+div:hover span,div:focus span{
+    color: #0dc441 !important
+}
+div:hover i,div:focus i{
+    color: #0dc441 !important
+}
+
+@media all and (max-width:320px){
+    html{
+        font-size: 12px
+    }
+}
+@media all and (min-width:321px) and (max-width:375px){
+    html{
+        font-size: 14px
+    }
+}
+@media all and (min-width:414px){
+    html{
+        font-size: 16px
+    }
+}

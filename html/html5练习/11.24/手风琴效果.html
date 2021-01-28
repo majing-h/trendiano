@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>手风琴效果</title>
+    <style>
+        .wrap {
+            width: 500px;
+            height: 500px;
+            border: 2px solid black;
+            margin: 100px auto
+        }
+        a{
+            width: 100%;
+            height: 50px;
+            background: brown;
+            line-height: 50px;
+            text-align: center;
+            text-decoration: none;
+            display: block
+        }
+        #box1:target{
+           /* font-size: 50px */
+           width: 100%;
+           height: 300px;
+           background: red
+       }
+       #box2:target{
+           /* font-size: 50px */
+           width: 100%;
+           height: 300px;
+           background: green
+       }
+       #box3:target{
+           /* font-size: 50px */
+           width: 100%;
+           height: 300px;
+           background: blue
+       }
+       .wrap div{
+           height: 0;
+           /* 过渡 谁改变给谁加 - 从一种状态变换到另外一种状态时候的过渡过程*/
+           transition: 1s;
+       }
+    </style>
+
+</head>
+
+<body>
+    <div class="wrap">
+            <a href="#box1">开关1</a>
+        <div id="box">灯1</div>
+        <a href="#box2">开关2</a>
+        <div id="box2">灯2</div>
+        <a href="#box3">开关3</a>
+        <div id="box">灯3</div>
+        
+
+
+
+    </div>
+</body>
+
+</html>

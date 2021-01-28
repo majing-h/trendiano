@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+html{
+    font-size: 26.67vw
+}
+body{
+    display: flex;
+    flex-direction: column
+}
+/* 头部 */
+header{
+    width: 100%;
+    height: 1.75rem;
+}
+#banner{
+    width: 100%;
+    height: 1.75rem;
+    position: relative;
+}
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+/* form */
+header form{
+    width: 3.47rem;
+    height: 0.32rem;
+    /* background: #fff; */
+    position: absolute;
+    left: 0.15rem;
+    top: 0.06rem;
+    z-index: 5555;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+form input{
+    width: 3.11rem;
+    height: 0.32rem;
+    outline: none;
+    border: none;
+    background:#ffffff url(../images/sousuo_03.jpg) no-repeat 0.825rem center;
+    text-indent: 1.08rem;
+    border-radius: 0.15rem;
+    font-size: 0.13rem;
+    background-size: 0.15rem 0.15rem
+}
+::-webkit-input-placeholder{
+    color: #dbdbdb
+}
+form i{
+    width: 0.22rem;
+    height: 0.22rem;
+    font-size: 0.22rem !important;
+    color: #ffffff
+}
+/* 导航 */
+nav{
+    width:100%;
+    height: 0.98rem;
+    /* background: pink; */
+    display: flex
+}
+nav i img{
+    width: 0.44rem;
+    height: 0.44rem;
+
+}
+nav i{
+    width: 25%;
+    height: 0.98rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.12rem;
+    color: #000;
+    font-style: normal
+}
+/* 文字 */
+aside{
+    width: 100%;
+    height: 0.45rem;
+    border-top:1px solid #e8e9eb;
+   
+    background: #f8f9fa;
+    box-sizing: border-box;  
+}
+aside div{
+    font-size: 0.13rem;
+    text-align: center;
+    line-height: 0.45rem;
+    position:relative
+}
+aside div::after{
+    content: "";
+    width: 0.07rem;
+    height: 0.015rem;
+    background: #000;
+    position: absolute;
+    left: 1.19rem; 
+    top:49%
+}
+aside div::before{
+    content: "";
+    width: 0.07rem;
+    height: 0.015rem;
+    background: #000;
+    position: absolute;
+    right: 1.19rem; 
+    top:49%
+}
+/* 主体 */
+main{
+    width: 100%;
+    flex: 1;
+    /* background: orange */;
+    overflow: auto
+}
+/* 整体大盒子 */
+main section{
+    width: 100%;
+    height: 1.59rem;
+    /* background: blanchedalmond; */
+    border-top:1px solid #e8e9eb;
+    border-bottom: 1px solid #e8e9eb;
+    box-sizing: border-box
+}
+.box1{
+    width:3.45rem;
+    height: 0.17rem;
+    /* background: aqua; */
+    margin-top: 0.17rem;
+    margin-left: 0.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.box1 p{
+    font-size: 0.15rem
+}
+.box1 span{
+    width: 0.18rem;
+    height: 0.18rem;
+    position: absolute;
+    left: 0.8rem;
+    /* background: #ff7452 */
+}
+.box1 span img{
+    width: 100%;
+    height: 100%;
+}
+.box1 i{
+    font-style: normal;
+    font-size: 0.13rem;
+    color: #ff7452
+}
+  .box2{
+      width: 3.45rem;
+      height: 0.12rem;
+      /* background: cadetblue; */
+      margin-top: 0.1rem;
+      margin-left: 0.15rem;
+      font-size: 0.12rem;
+      color: #767676;
+      display: flex;
+      justify-content: space-between;
+      align-items: center
+  } 
+.box3{
+    width: 2.56rem;
+    height: 0.2rem;
+    /* background: skyblue; */
+    margin-top: 0.14rem;
+    margin-left: 0.15rem;
+    font-size: 0.11rem;
+}
+.box3 span{
+    padding: 0 0.07rem;
+    height: 0.2rem;
+    background: #f4f5f7;
+    border-radius: 0.02rem
+}
+.box4{
+    width: 0.31rem;
+    height: 0.28rem;
+    margin-top: 0.25rem;
+    margin-left: 0.17rem;
+    background: palegoldenrod
+}
+.box4 img{
+    width: 100%;
+    height: 100%;
+}
+.box5{
+    width: 2.7rem;
+    height: 0.33rem;
+    margin-top: -0.3rem;
+    margin-left: 0.6rem;
+    /* background: skyblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.box5 p:nth-child(1){
+    font-size: 0.12rem
+}
+.box5 p:nth-child(2){
+    font-size: 0.110rem;
+    color:#999999
+}
+/* 底部 */
+footer{
+    width: 100%;
+    height: 0.49rem;
+    /* background: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.footer-box p{
+    font-size: 0.22rem;
+    color: #929292;
+}
+.footer-box i{
+    font-size: 0.1rem;
+    color: #929292;
+    font-style: normal
+}
+.footer-box p:hover,.footer-box p:focus{
+    color: #00b589
+}
+.footer-box i:hover,.footer-box i:focus{
+    color: #00b589
+}
